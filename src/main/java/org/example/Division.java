@@ -1,4 +1,4 @@
-package org.example.proyectoDivision;
+package org.example;
 
 public class Division {
 
