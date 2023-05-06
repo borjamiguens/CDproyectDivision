@@ -1,8 +1,11 @@
+//Recibe una cadena de caracteres y retorna una cadena con el acrónimo correspondiente.
+//El acrónimo está formado por el primer carácter de cada palabra seguidos de un punto cuando el carácter es diferente de espacio en blanco.
+
 package org.example.proyectoAcronimos;
 
-public class Acronimos {
+public final class Acronimos {
 
-    public String obtenerAcronimo(String cadena) {
+    public static String obtenerAcronimo(String cadena) {
 
         String resultado = "";
         char caracter;
